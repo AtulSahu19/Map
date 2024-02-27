@@ -1,0 +1,22 @@
+package p1;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class FetchAllKey {
+public static void main(String[] args) {
+	Map map=new HashMap();
+	map.put(1, 'a');
+	map.put(2, "atul");
+	map.put(3, 'b');
+	map.put(4, true);
+	
+	Set set=map.keySet();
+	for(Object key:set)
+	{
+		System.out.println(key);
+	}
+}
+}
