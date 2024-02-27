@@ -1,0 +1,21 @@
+package p1;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+
+public class FetchAllValue {
+public static void main(String[] args) {
+	Map map=new HashMap();
+	map.put(1,'a');
+	map.put(2,'b');
+	map.put(3, 'c');
+	map.put(4,'d');
+	
+	Collection<Character> collection=map.values();
+	for(Character run:collection)
+	{
+		System.out.println(run);
+	}
+}
+}
